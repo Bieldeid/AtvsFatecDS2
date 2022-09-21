@@ -1,0 +1,9 @@
+DROP DATABASE IF EXISTS db_projeto;
+CREATE DATABASE db_projeto;
+USE db_projeto;
+
+CREATE TABLE t_usuario(
+    id_usuario INT (11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    us_nome VARCHAR(50) NULL DEFAULT NULL,
+    us_senha VARCHAR (50) NULL DEFAULT NULL 
+);
